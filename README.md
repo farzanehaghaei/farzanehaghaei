@@ -66,9 +66,6 @@ Key focus areas:
 DevSecOps-focused Terraform project for provisioning Azure resources required for HDInsight on AKS.
 The project focuses on creating secure and repeatable Azure infrastructure for big data workloads running on AKS-based HDInsight environments. It supports environment-based resource management, container registry integration, and secure configuration through Azure Key Vault.
 
-### [Cloud-native](https://github.com/farzanehaghaei/kcloud)
-Cloud-native infrastructure project focused on Kubernetes, automation, and platform operations.
-
 ### [Kubernetes Storage orchestration-rook](https://github.com/farzanehaghaei/rook)
 Kubernetes storage orchestration project, showing hands-on experience with cloud-native storage and cluster infrastructure.
 
