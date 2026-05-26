@@ -69,7 +69,7 @@ The project focuses on creating secure and repeatable Azure infrastructure for b
 ### [Kubernetes Storage orchestration-rook](https://github.com/farzanehaghaei/rook)
 Kubernetes storage orchestration project, showing hands-on experience with cloud-native storage and cluster infrastructure.
 
-### [Ansible for Node exporter](https://github.com/farzanehaghaei/ansible-node-exporter)
+### [Ansible-Based Server Monitoring Setup](https://github.com/farzanehaghaei/ansible-node-exporter)
 Ansible automation for provisioning Node Exporter and enabling Prometheus-based server monitoring.
 
 ### [Monitoring-Prometheus With Grafana](https://github.com/farzanehaghaei/PrometheusWithGrafana)
