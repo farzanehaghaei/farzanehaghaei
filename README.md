@@ -66,6 +66,9 @@ Key focus areas:
 DevSecOps-focused Terraform project for provisioning Azure resources required for HDInsight on AKS.
 The project focuses on creating secure and repeatable Azure infrastructure for big data workloads running on AKS-based HDInsight environments. It supports environment-based resource management, container registry integration, and secure configuration through Azure Key Vault.
 
+### [Python- Auto backup from mysql](https://github.com/farzanehaghaei/Python-Script-for-MySQL-all-Databases-Backup)
+Aautomated Python tool for daily MySQL backups to NFS with retention management and Slack/Email alerts.
+
 ### [Kubernetes Storage orchestration-rook](https://github.com/farzanehaghaei/rook)
 Kubernetes storage orchestration project, showing hands-on experience with cloud-native storage and cluster infrastructure.
 
@@ -74,7 +77,6 @@ Ansible automation for provisioning Node Exporter and enabling Prometheus-based 
 
 ### [Monitoring-Prometheus With Grafana](https://github.com/farzanehaghaei/PrometheusWithGrafana)
 Infrastructure monitoring and observability project using Prometheus and Grafana.
-
 ---
 
 ## 📚 Currently Learning
