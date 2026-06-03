@@ -62,7 +62,7 @@ Key focus areas:
 - Reusable Terraform modules
 - DevSecOps and cloud infrastructure best practices
 
-### [HDInsight on AKS Infrastructure Automation](https://github.com/farzanehaghaei/hdinsight-aks-terraform-infrastructure)
+### [HDInsight on AKS Infrastructure Automation](https://github.com/farzanehaghaei/hdinsight-aks-terraform-automation)
 DevSecOps-focused Terraform project for provisioning Azure resources required for HDInsight on AKS.
 The project focuses on creating secure and repeatable Azure infrastructure for big data workloads running on AKS-based HDInsight environments. It supports environment-based resource management, container registry integration, and secure configuration through Azure Key Vault.
 
