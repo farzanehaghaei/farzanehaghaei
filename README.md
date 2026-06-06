@@ -52,7 +52,7 @@ I am building my experience in secure infrastructure and cloud security, includi
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Kubernetes & Cloud Security Hands-on Experience
 
 ### [Azure AKS Infrastructure with Terraform](https://github.com/farzanehaghaei/azure-aks-terraform-infrastructure)
 Infrastructure as Code project for provisioning Azure AKS-related resources using Terraform.  
@@ -68,6 +68,9 @@ The project focuses on creating secure and repeatable Azure infrastructure for b
 
 ### [Python- Auto backup from mysql](https://github.com/farzanehaghaei/Python-Script-for-MySQL-all-Databases-Backup)
 Aautomated Python tool for daily MySQL backups to NFS with retention management and Slack/Email alerts.
+
+### [Kubespray: Production-ready Kubernetes cluster deployment](https://github.com/farzanehaghaei/kubespray)
+Forked and experimented with Kubespray to build and manage production-grade clusters using Ansible and Terraform. Hands-on experience with cluster automation, HA setup, and multi-node configuration.
 
 ### [Kubernetes Storage orchestration-rook](https://github.com/farzanehaghaei/rook)
 Kubernetes storage orchestration project, showing hands-on experience with cloud-native storage and cluster infrastructure.
