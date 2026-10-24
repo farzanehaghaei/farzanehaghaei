@@ -30,6 +30,7 @@ I am currently improving my skills in **cloud security**, **cybersecurity**, and
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
@@ -54,6 +55,17 @@ I am building my experience in secure infrastructure and cloud security, includi
 
 ## 🚀 Kubernetes & Cloud Security Hands-on Experience
 
+### [AWS Secure Infrastructure with Terraform](https://github.com/farzanehaghaei/aws-terraform-project)
+Production-ready AWS infrastructure built with Terraform and deployed via GitHub Actions CI/CD — following DevSecOps best practices.  
+Key focus areas:
+- VPC with public and private subnets across 2 availability zones
+- EC2 in private subnet — no public IP, no SSH key, IMDSv2 enforced
+- S3 bucket with AES-256 encryption, versioning, and access logging
+- Least-privilege IAM — EC2 can only access its own S3 bucket
+- Security Groups with minimal inbound rules
+- GitHub Actions pipeline: `terraform fmt` → `terraform validate` → `tfsec` security scan → `terraform plan` → `terraform apply`
+- Reusable modules for networking, compute, and storage — supports dev and prod environments
+
 ### [Azure AKS Infrastructure with Terraform](https://github.com/farzanehaghaei/azure-aks-terraform-infrastructure)
 Infrastructure as Code project for provisioning Azure AKS-related resources using Terraform.  
 Key focus areas:
@@ -66,20 +78,21 @@ Key focus areas:
 DevSecOps-focused Terraform project for provisioning Azure resources required for HDInsight on AKS.
 The project focuses on creating secure and repeatable Azure infrastructure for big data workloads running on AKS-based HDInsight environments. It supports environment-based resource management, container registry integration, and secure configuration through Azure Key Vault.
 
-### [Python- Auto backup from mysql](https://github.com/farzanehaghaei/Python-Script-for-MySQL-all-Databases-Backup)
-Aautomated Python tool for daily MySQL backups to NFS with retention management and Slack/Email alerts.
+### [Python - Auto backup from MySQL](https://github.com/farzanehaghaei/Python-Script-for-MySQL-all-Databases-Backup)
+Automated Python tool for daily MySQL backups to NFS with retention management and Slack/Email alerts.
 
 ### [Kubespray: Production-ready Kubernetes cluster deployment](https://github.com/farzanehaghaei/kubespray)
 Forked and experimented with Kubespray to build and manage production-grade clusters using Ansible and Terraform. Hands-on experience with cluster automation, HA setup, and multi-node configuration.
 
-### [Kubernetes Storage orchestration-rook](https://github.com/farzanehaghaei/rook)
+### [Kubernetes Storage orchestration - rook](https://github.com/farzanehaghaei/rook)
 Kubernetes storage orchestration project, showing hands-on experience with cloud-native storage and cluster infrastructure.
 
 ### [Ansible-Based Server Monitoring Setup](https://github.com/farzanehaghaei/ansible-node-exporter)
 Ansible automation for provisioning Node Exporter and enabling Prometheus-based server monitoring.
 
-### [Monitoring-Prometheus With Grafana](https://github.com/farzanehaghaei/PrometheusWithGrafana)
+### [Monitoring - Prometheus With Grafana](https://github.com/farzanehaghaei/PrometheusWithGrafana)
 Infrastructure monitoring and observability project using Prometheus and Grafana.
+
 ---
 
 ## 📚 Currently Learning
